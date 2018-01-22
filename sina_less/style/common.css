@@ -1,0 +1,338 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_548264_w6khhmbt45eidx6r.eot');
+  src: url('//at.alicdn.com/t/font_548264_w6khhmbt45eidx6r.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_548264_w6khhmbt45eidx6r.woff') format('woff'), url('//at.alicdn.com/t/font_548264_w6khhmbt45eidx6r.ttf') format('truetype'), url('//at.alicdn.com/t/font_548264_w6khhmbt45eidx6r.svg#iconfont') format('svg');
+  
+  /* project id 548264 */
+}
+[class*=icon-]:before,
+[class^=icon-]:after {
+  font-family: 'iconfont';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+.icon-fdj:before {
+  content: "\e617";
+}
+.icon-home:before {
+  content: "\ee8f";
+}
+.icon-faxian:before {
+  content: "\e62c";
+}
+.icon-youxi:before {
+  content: "\e653";
+}
+.icon-wode:before {
+  content: "\e608";
+}
+.icon-shipin:before {
+  content: "\e609";
+}
+.icon-email:before {
+  content: "\e6f7";
+}
+.icon-setting:before {
+  content: "\e662";
+}
+.icon-edit:before {
+  content: "\e687";
+}
+.icon-zhuanfa:before {
+  content: "\e628";
+}
+.icon-comment:before {
+  content: "\e638";
+}
+.icon-zan:before {
+  content: "\e681";
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  border: none;
+}
+input,
+select,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+textarea {
+  resize: none;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background: #fff;
+  border-top: 2px solid #fa7d3c;
+  border-bottom: 1px solid #cccccc;
+  height: 48px;
+  width: 100%;
+  min-width: 1200px;
+  box-shadow: 5px 5px 20px #ddd;
+}
+.header_content {
+  margin-left: auto;
+  margin-right: auto;
+  *zoom: 1;
+  width: 1200px;
+}
+.header_content:before,
+.header_content:after {
+  display: table;
+  content: "";
+}
+.header_content:after {
+  clear: both;
+}
+.header .logo {
+  float: left;
+  display: inline;
+  height: 48px;
+  width: 140px;
+}
+.header .logo a {
+  display: block;
+  height: 100%;
+  background: url("../img/WB_logo.png") center center no-repeat;
+  width: 100%;
+}
+.header .search {
+  float: left;
+  display: inline;
+  position: relative;
+  margin-top: 9px;
+}
+.header .search input {
+  width: 425px;
+  height: 20px;
+  line-height: 20px;
+  background-color: #f2f2f5;
+  border: 1px solid #cccccc;
+  padding: 4px 33px 4px 10px;
+}
+.header .search span {
+  position: absolute;
+  font-size: 20px;
+  top: 2px;
+  right: 10px;
+}
+.headerNav {
+  float: right;
+  display: inline;
+  line-height: 26px;
+  margin: 11px 0;
+}
+.headerNav a:before {
+  margin-right: 5px;
+}
+.headerNav a {
+  padding: 0 10px;
+  color: #333333;
+}
+.headerNav a:hover {
+  color: #fa7d3c !important;
+}
+.headerNav a:nth-child(5) {
+  border-right: 1px solid #cccccc;
+}
+.header .setting {
+  float: right;
+  display: inline;
+}
+.header .setting a:before {
+  margin-right: 5px;
+}
+.header .setting a {
+  padding: 0 10px;
+  color: #333333;
+}
+.header .setting a:hover {
+  color: #fa7d3c !important;
+}
+.main {
+  *zoom: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 16px 0;
+}
+.main:before,
+.main:after {
+  display: table;
+  content: "";
+}
+.main:after {
+  clear: both;
+}
+.mainLeft {
+  width: 110px;
+  float: left;
+  display: inline;
+}
+.mainLeft a {
+  display: inline-block;
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  color: #333333;
+  font-size: 18px;
+  text-align: center;
+}
+.mainLeft .active,
+.mainLeft a:hover {
+  background: #fa2f2f;
+  color: #fff;
+}
+.mainMiddle {
+  margin: 0 380px 0 150px;
+  width: auto;
+}
+.mainMiddle .middleItem {
+  display: inline-block;
+  *zoom: 1;
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.mainMiddle .middleItem:before,
+.mainMiddle .middleItem:after {
+  display: table;
+  content: "";
+}
+.mainMiddle .middleItem:after {
+  clear: both;
+}
+.mainMiddle .middleItem .itemImg {
+  float: left;
+  display: inline;
+  margin-right: 13px;
+}
+.mainMiddle .middleItem .itemInfo {
+  float: left;
+  display: inline;
+  width: 58%;
+}
+.mainMiddle .middleItem .itemInfo h3 {
+  font-weight: normal;
+  line-height: 24px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 96px;
+}
+.mainMiddle .middleItem .itemInfo h3 a {
+  font-size: 14px;
+  color: #333;
+}
+.mainMiddle .middleItem .itemInfo p {
+  *zoom: 1;
+  padding: 10px 0;
+}
+.mainMiddle .middleItem .itemInfo p:before,
+.mainMiddle .middleItem .itemInfo p:after {
+  display: table;
+  content: "";
+}
+.mainMiddle .middleItem .itemInfo p:after {
+  clear: both;
+}
+.mainMiddle .middleItem .itemInfo p img {
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  line-height: 20px;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.mainMiddle .middleItem .itemInfo p a {
+  font-size: 12px;
+  color: #808080;
+}
+.mainMiddle .middleItem .itemInfo p .itemTip {
+  float: right;
+  display: inline;
+  margin-top: 4px;
+}
+.mainMiddle .middleItem .itemInfo p .itemTip span:before {
+  font-size: 16px;
+  margin: 0 2px 0 10px;
+  vertical-align: middle;
+}
+.mainRight {
+  float: right;
+  display: inline;
+  width: 340px;
+}
+.mainRight .rightItem {
+  border-top: 1px solid #fa2f2f;
+  background: #f2f2f5;
+  margin-bottom: 20px;
+}
+.mainRight .rightItem h2 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  padding: 20px 20px 0;
+}
+.mainRight .rightItem .item {
+  *zoom: 1;
+  padding: 0 20px 10px;
+}
+.mainRight .rightItem .item:before,
+.mainRight .rightItem .item:after {
+  display: table;
+  content: "";
+}
+.mainRight .rightItem .item:after {
+  clear: both;
+}
+.mainRight .rightItem .item .itemLeft {
+  float: left;
+  display: inline;
+}
+.mainRight .rightItem .item .itemLeft h3 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.mainRight .rightItem .item .itemLeft h3 a {
+  color: #333;
+}
+.mainRight .rightItem .item .itemLeft span {
+  font-size: 12px;
+  color: #808080;
+}
+.mainRight .rightItem .item .itemRight {
+  float: right;
+  display: inline;
+  display: inline-block;
+  margin-left: 10px;
+}
+.mainRight .rightItem .item .itemRight img {
+  width: 120px;
+  height: 70px;
+}
+.mainRight .rightItem .more {
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+  line-height: 40px;
+}
+.mainRight .rightItem .more a {
+  font-size: 14px;
+  color: #333333;
+}
